@@ -1,0 +1,39 @@
+.automotivo {
+    background: white;
+    height: 300px;
+    width: 98%;
+    margin: 30px auto;
+}
+
+.automotivo__titulo {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.automotivo__titulo h2 {
+    margin-top: 20px;
+}
+
+.automotivo__titulo a {
+    margin-top: 25px;
+    margin-left: 15px;
+    text-decoration: none;
+    color: #007185;
+}
+
+.automotivo__titulo a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: orangered;   
+}
+
+.automotivo__itens {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.automotivo__itens img:hover {
+    cursor: pointer;
+}

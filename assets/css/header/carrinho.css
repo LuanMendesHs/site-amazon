@@ -1,0 +1,25 @@
+.carrinho {
+    border: 1px solid transparent;
+    display: flex;
+    margin-left: 10px;
+    padding: 6px 5px 5px 5px;
+}
+
+.carrinho:hover {
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.carrinho img {
+    width: 40px;
+    height: 40px;
+}
+
+.carrinho p {
+    display: flex;
+    align-items: flex-end;
+    color: white;
+    font-size: 17px;
+    line-height: 18px;
+    font-weight: 700;
+}

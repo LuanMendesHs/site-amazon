@@ -1,0 +1,45 @@
+.container__box___secundario {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.box__secundario {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    background: white;
+    width: 23%;
+    height: 430px;
+}
+
+.box__imagem___secundario {
+    margin-top: 10px;
+}
+
+.box__imagem___secundario:hover {
+    cursor: pointer;
+}
+
+.box__imagem___secundario img {
+    width: 85%;
+    height: 270px;
+    margin-left: 20px;
+}
+
+.box__imagem___secundario img:hover {
+    cursor: pointer;
+}
+
+.mais__secundario {
+    text-decoration: none;
+    font-size: 14px;
+    margin-left: 20px;
+    color: #007185;
+}
+
+.mais__secundario:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: orangered;
+}

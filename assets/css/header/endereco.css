@@ -1,0 +1,35 @@
+.endereco {
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-left: 20px;
+    padding: 3px 5px 2px 5px;
+    border: 1px solid transparent;
+}
+
+.endereco:hover {
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.endereco__logo {
+    margin-top: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+.endereco__texto {
+    margin-bottom: 5px;
+}
+
+.endereco__texto-ola {
+    color: rgb(223, 217, 217);
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 400;
+}
+
+.endereco__texto:last-child {
+    font-weight: bold;
+    font-size: 14px;
+}

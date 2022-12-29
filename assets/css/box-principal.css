@@ -1,0 +1,74 @@
+.container__box___principal {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.box, .box__music {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    background: white;
+    width: 23%;
+    height: 400px;
+}
+
+.box__titulo {
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.box__imagem {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.box__imagem:hover {
+    cursor: pointer;
+}
+
+.box__imagem img {
+    width: 120px;
+    height: 80px;
+}
+
+.box__imagem p {
+    font-size: 12px;
+}
+
+.mais {
+    text-decoration: none;
+    font-size: 14px;
+    margin-left: 20px;
+    margin-top: 30px;
+    color: #007185;
+}
+
+.mais:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: orangered;
+}
+
+.mais__music {
+    text-decoration: none;
+    font-size: 14px;
+    margin-left: 20px;
+    color: #007185;
+}
+
+.mais__music:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: orangered;
+}
+
+.box__imagem___music img {
+    width: 85%;
+    height: 260px;
+    margin-left: 20px;
+}
+
+.box__imagem___music img:hover {
+    cursor: pointer;
+}

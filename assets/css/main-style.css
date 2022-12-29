@@ -1,0 +1,20 @@
+#background01 { 
+    background-image: linear-gradient(to bottom, transparent 41%, #ececec 100%), url(/assets/img/background.jpg);
+    background-size: cover;
+    width: 100%;
+    height: calc(100vh - 100px);
+}
+
+.seta {
+    display: flex;
+    justify-content: space-between;
+}
+
+.seta img {
+    margin: 100px 10px 0 10px;
+    width: 50px;
+}
+
+.seta img:hover {
+    cursor: pointer;
+}

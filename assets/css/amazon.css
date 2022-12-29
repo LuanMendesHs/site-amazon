@@ -1,0 +1,39 @@
+.amazon {
+    background: white;
+    height: 300px;
+    width: 98%;
+    margin: 30px auto;
+}
+
+.amazon__titulo {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.amazon__titulo h2 {
+    margin-top: 20px;
+}
+
+.amazon__titulo a {
+    margin-top: 25px;
+    margin-left: 15px;
+    text-decoration: none;
+    color: #007185;
+}
+
+.amazon__titulo a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: orangered;   
+}
+
+.amazon__itens {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.amazon__itens img:hover {
+    cursor: pointer;
+}

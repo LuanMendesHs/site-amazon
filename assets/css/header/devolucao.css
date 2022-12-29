@@ -1,0 +1,30 @@
+.devolucao {
+    padding: 10px 5px 9px 5px;
+    margin-left: 10px;
+    color: white;
+    border: 1px solid transparent;
+}
+
+.devolucao:hover {
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.devolucao__nav01 {
+    font-size: 13px;
+    line-height: 14px;
+    height: 14px;
+    font-weight: 400;
+}
+
+.devolucao__nav02 {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    line-height: 15px;
+    font-weight: 700;
+}
+
+.devolucao__nav02 p {
+    margin-bottom: 3px;
+}

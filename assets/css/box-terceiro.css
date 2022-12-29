@@ -1,0 +1,37 @@
+.container__box___terceiro {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.box__terceiro {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    background: white;
+    width: 23%;
+    height: 400px;
+}
+
+.mais__terceiro {
+    text-decoration: none;
+    font-size: 14px;
+    margin-left: 20px;
+    color: #007185;
+}
+
+.mais__terceiro:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: orangered;
+}
+
+.box__imagem___terceiro img {
+    width: 85%;
+    height: 260px;
+    margin-left: 20px;
+}
+
+.box__imagem___terceiro img:hover {
+    cursor: pointer;
+}
