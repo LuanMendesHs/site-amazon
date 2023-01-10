@@ -1,6 +1,7 @@
 .pesquisa {
     background: white;
     display: flex;
+    justify-content: space-between;
     align-items: center;
     border: 1px solid gray;
     border-radius: 5px;
@@ -51,7 +52,7 @@
     border-left: 1px solid gray;
     cursor: pointer;
     padding: 5px 6px 5px 9px;
-    margin: -20px 0 0 41.7%;
+    margin: -20px 0 0 -46px;
     height: 30px;
     position: absolute;
 }
